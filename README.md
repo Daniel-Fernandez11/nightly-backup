@@ -20,12 +20,7 @@ NightlyBackup provides a simple and reliable way to automate directory backups, 
 
 # How It Works
 
-1 Validates input arguments
-2 Verifies the source directory exists
-3 Creates the backup destination if needed
-4 Generates a compressed backup with a timestamp
-5 Deletes old backups beyond the configured limit
-6 Logs all operations to a log file
+The script validates input arguments, verifies that the source directory exists, creates the backup destination directory if necessary, generates a compressed tar.gz backup with a timestamp, removes old backups beyond the configured limit, and records all actions and errors in a log file.
 
 #Requirements
 
