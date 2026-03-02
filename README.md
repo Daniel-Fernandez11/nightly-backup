@@ -24,10 +24,7 @@ The script validates input arguments, verifies that the source directory exists,
 
 #Requirements
 
-Bash shell 
-Linux system
-tar utility
-cron (optional)
+Bash shell, Linux system, tar utility, cron (optional).
 
 # Author
 
